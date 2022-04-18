@@ -4,9 +4,8 @@ new Vue({
         message: 'Hello Vue.js!',
     },
     methods: {
-            sayHi: function() {
-                return 'Hi'
-            }
+        sayHi: function() {
+            return 'Hi'
         }
-    }
-)
+    }   
+})
