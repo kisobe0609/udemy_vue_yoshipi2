@@ -1,6 +1,12 @@
 new Vue({
     el: '#app',
     data: {
-        message: 'hello vue.js!'
+        message: 'Hello Vue.js!',
+    },
+    methods: {
+            sayHi: function() {
+                return 'Hi'
+            }
+        }
     }
-})
+)
